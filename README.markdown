@@ -6,7 +6,7 @@ Este é um [template][0] criado para o serviço [Be on the Net][], da [Improve I
 
 Código no [Be on the Net][]: **template-harlleyoliveira-01-2008**.  
 Autor: [Harlley Oliveira][1] - [contatos][2].  
-Localização: Belo Horizonte, MG, Brasil.
+Localização: Belo Horizonte, MG, Brasil.  
 Licença: [Creative Commons Atribuição 2.5][cc].  
 
 ## Organic Design Elements
