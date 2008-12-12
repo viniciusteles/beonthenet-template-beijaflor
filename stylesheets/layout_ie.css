@@ -1,0 +1,132 @@
+/* Style sheet with conditions for Internet Explorer. */
+
+hr {
+  margin:                 -8px 0 -7px 0;
+}
+
+#header li {
+	padding:                0;
+}
+
+/* Vertically centering images */
+ul#thumbnails li div a {
+	display:                block;
+}
+
+ul#thumbnails li div {
+	margin-top: 5px;
+}
+
+#footer {
+	margin-top: -30px;
+}
+
+#selection #footer {
+	margin-top: -20px;
+}
+
+#checkout #footer {
+	margin-top: -20px;
+}
+
+#pictures_sent #footer {
+	margin-top: -20px;
+}
+
+
+#search #footer, body.quem_somos #footer, body.videos #footer,
+body.contact #footer, body.application #footer, body.best_galleries #footer {
+	background: none;
+}	
+ 
+#search #main_content, body.quem_somos #main_content, body.videos #main_content, 
+body.contact #main_content, body.application #main_content, body.best_galleries #main_content  {
+	background: #EBEBE6 url(../images/footer.png) no-repeat bottom;
+}
+
+body#checkout #order_form p {
+	padding-left: 60px;
+}
+
+
+body.videos #thumbnails h4 {
+	margin-bottom: 5px;
+}
+
+#summary {
+	width: 384px;
+}
+
+#selection footer {
+	background-repeat: no-repeat;
+}	
+
+.second.pages {
+	margin-top: -20px;
+	margin-bottom: 30px;
+}	
+
+ul#thumbnails li div span.ie {
+	display:                inline-block;
+	vertical-align:         middle;
+	height:                 100%;
+}
+
+.second {
+  bottom:                 40px;
+}
+
+#all_pictures label, #cart_items label, 
+#selected_pictures label {
+	filter:                 alpha(opacity=70);
+}
+
+
+body#selection #selection_size {
+  right:                  34.25em;
+}
+
+.moved_to_cart {
+	filter:                 alpha(opacity=30);
+}
+
+label {
+	margin-top:             .3em;
+}
+
+#submit_button {
+	width:                  12em;
+	margin-left:            43%;
+}
+
+/* IE7: */
+*:first-child + html #facebox a {
+	right:                  -18px;
+}
+
+#facebox div p{
+	margin: 0;
+	padding: 0;
+	margin-left: 20px;
+	
+}
+
+#facebox div {
+	padding-right: 40px; 
+	
+}
+
+#selection h2#selection_size {
+	margin-right: -220px;
+}
+
+
+#main_content h1 {
+	padding-bottom: 5px;
+}
+
+
+body#selection #selection_size { 
+	right: 443px;
+}
+

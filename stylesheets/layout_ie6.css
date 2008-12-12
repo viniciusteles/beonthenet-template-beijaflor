@@ -1,0 +1,145 @@
+/* Style sheet with conditions for IE6. */
+
+
+body {
+	overflow:               hidden;
+}
+
+#header ul {
+	bottom:                 15px;
+}
+
+#big_picture, #big_video {
+	margin-left: -20px;
+}
+
+#previous {
+	margin-left: 5px;
+}
+
+#cart_items.instructions {
+	margin-left: -20px;
+}
+
+p.pages {
+	margin-left: 10px;
+	margin-top: 10px;
+}	
+
+#selection #subnavigation {
+	margin-left: 20px;	
+}
+
+#selection #cart_items {
+	margin-left: 20px;	
+}
+
+#selection h2#selection_size {
+	position: absolut;
+	padding-top: 20px;
+	margin-right: -280px;
+}
+
+ul#thumbnails li{
+	margin-right: 50px;
+}
+
+ul#thumbnails li h4 {
+	margin-right: -20px;
+}
+
+#all_pictures li, #cart_items li {
+	margin:                 1px;
+}
+
+#all_pictures label {
+	margin-bottom:          3px;
+}
+
+#summary {
+	margin-bottom:          70px;
+}
+
+#summary p {
+	margin-bottom:          .7em;
+}
+
+#select_pictures a {
+	line-height:            1.3em;
+}
+
+#cart_items {
+	margin-left:            34.2em;
+}
+#cart_items li, #selected_pictures li {
+	margin:                 1px 2px;
+}
+
+#all_pictures li label, #all_pictures li a, 
+#cart_items label, #cart_items a {
+	bottom:                 0;	
+}
+#selected_pictures label, #selected_pictures a {
+	bottom:                 4px;
+}
+#all_pictures a, #cart_items a, 
+#selected_pictures a {
+	right:                  0;
+}
+
+body#selection #selection_size {
+  right:                  38.25em;
+}
+
+#checkout #submit_error {
+	margin-top:             1em;
+	margin-left:            0.1em;
+	margin-right:           4.4em;
+	padding:                1.5em;
+}
+
+.email_field_with_errors {
+	position:               relative;
+	top:                    .2em;
+}
+
+#facebox div p{
+	margin-left: 20px;
+}
+
+#facebox div {
+	padding-right: 0px; 
+	
+}
+
+
+#checkout #facebox div {
+	position: absolute;
+	left: 400px;
+}
+
+#search_picture #big_picture {
+	margin-left: -20px;
+}
+
+#search_picture #big_picture img{
+	margin-left: 5px;
+	
+}
+
+body.videos ul#thumbnails li div a:hover {
+	background: none;
+}
+
+body.videos #thumbnails h3 {
+	height: 32px;
+}
+
+#selection p.pages {
+	margin-left: 20px;
+}
+
+body#selection #selection_size { 
+	right: 488px;
+}
+

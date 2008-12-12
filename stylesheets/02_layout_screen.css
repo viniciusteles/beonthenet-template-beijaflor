@@ -1,0 +1,853 @@
+html * {
+	padding: 0;
+	border: none;
+	margin: 0;
+}
+
+body {
+	width: 62.5em;
+	margin: auto;
+	margin-top: 3.0em;
+}
+
+#header,#main_content,#footer {
+	padding-right: 3.9em;
+	padding-left: 3.9em;
+}
+
+hr,.emtpy,.empty,#thumbnails li.empty,#selected_pictures li.empty {
+	display: block;
+	float: none;
+	height: 0;
+	padding: 0;
+	margin: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+a {
+	outline: none;
+}
+
+/* Header tabbed menu */
+#header {
+	min-height: 38px;
+	height: 225px;
+	padding-top: 0;
+	padding-bottom: 0;
+	position: relative;
+}
+
+#header ul {
+	margin: 0;
+	padding-top: 3px;
+	position: absolute;
+	bottom: 16px;
+	left: 140px;
+}
+
+#header li {
+	display: inline;
+	float: left;
+	margin: 0;
+}
+
+#header li a {
+	display: block;
+	width: 108px;
+	height: 30px;
+	text-align: center;
+	padding-top: 12px;
+	
+}
+
+
+#header li a:hover {
+	display: block;
+	padding-top: 10px;
+}
+
+
+#header h1#logo_print {
+	display: none;
+}
+
+#header h1#logo_screen {
+	position: absolute;
+	margin: 60px 0 0 150px;
+	width: 500px;
+	height: 40px;
+	overflow: hidden;
+}
+
+/* /Header tabbed menu */ 
+
+
+/* Main content top segment */
+#main_content {
+	padding: 1.56em 3.9em;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+#main_content h1 {
+	margin-left: 12px;
+	margin-bottom: 30px;
+}
+
+#selection #main_content h1 {
+	margin-top: 10px;
+}
+
+#subnavigation {
+	padding: 0;
+	margin-left: 230px;
+}
+
+#search_picture #subnavigation {
+	padding-left: 10px;
+}
+
+#selection #subnavigation,#checkout #subnavigation, 
+#pictures_sent #subnavigation, #search_picture #subnavigation {
+	margin-left: 15px;
+	margin-bottom: 30px;
+}
+
+#subnavigation a {
+	margin-right: 2.5em;
+}
+
+#subnavigation a,#see_data_sheet {
+	padding-left: 30px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+h1 {
+	margin-bottom: .7em;
+}
+
+body#selection h1 {
+	float: left;
+}
+
+/* /Main content top segment */ 
+
+
+/* Thumbnails */
+ul#thumbnails {
+	margin-right: -3.9em;
+	margin-left: 11px;
+}
+
+ul#thumbnails li {
+	float: left;
+	margin: 0 100px 2.5em 0;
+	width: 350px;
+}
+
+ul#thumbnails li h3 {
+	float: left;
+}
+
+ul#thumbnails li h4 {
+	float: right;
+	width: 40px;
+}
+
+ul#thumbnails li div {
+	position: relative;
+	width: 350px;
+	padding: 10px;
+	margin-right: 25px;
+	clear: both;
+	margin-top: 23px;
+}
+
+/* Vertically centering images 
+(conditional comments for IE required) */
+ul#thumbnails li div a {
+	display: table-cell;
+	width: 350px;
+	height: 250px;
+	vertical-align: middle;
+}
+
+ul#thumbnails li div img {
+	vertical-align: middle;
+}
+
+ul#thumbnails li div a label {
+	width: auto;
+	position: absolute;
+	bottom: 10px;
+	left: 15px;
+}
+
+
+body.videos #thumbnails img {
+  width:                  240px;
+}
+
+
+
+body.videos #thumbnails h3, body.videos #thumbnails h4 {
+	float: none;
+}
+
+body.videos ul#thumbnails li div{
+	background: transparent;
+	border: none;
+	background: url(../images/film.gif) center;
+	background-repeat: no-repeat;
+	margin-top: -10px;
+	
+	
+}
+
+body.videos ul#thumbnails li div a{
+	background-color: transparent;
+}
+
+body.videos #thumbnails h3 {
+	margin-left: 15px;
+	width: 100%;
+	height: 30px;
+}
+body.videos #thumbnails h4 {
+	margin-left: 15px;
+}
+
+
+/* /Thumbnails */
+
+#main_content h2 {
+	margin-left: 15px;
+	font-family: Arial, sans-serif;
+	font-size: 1.1em;
+}
+
+/* Summary */
+#summary,#about_us,#data_sheet,.error_hints {
+	padding: .65em 7.5em;
+	/*border:                 3px double;*/
+	border: 2px solid;
+	margin-bottom: 10px;
+}
+
+#summary {
+	min-height: 4.5em;
+	height: auto !important;
+	height: 4.5em;
+	padding-right: 20em;
+	position: relative;
+	clear: both;
+	width: 380px;
+	margin-left: 10px;
+	margin-bottom: 40px;
+}
+
+#picture #summary {
+	margin-left: 20px;
+	width: 370px;
+}
+
+#picture #data_sheet {
+	margin-left: 20px;
+	width: 570px;
+}
+
+#picture #select_pictures a {
+	margin-top: 0px;
+}
+
+/* /Summary */ 
+
+
+/* Link to Selection */
+#select_pictures a {
+	width: 7em;
+	height: 6em;
+	padding-left: 55px;
+	position: absolute;
+	top: 1em;
+	right: 8em;
+}
+
+/* /Link to Selection */ 
+
+/* Paging */
+.pages {
+	padding: 1px 20px 10px 20px;
+	margin: 5px 0;
+	clear: both;
+}
+
+p.pages {
+  height: 40px;
+  width: 790px;
+  margin-left: 10px;
+}
+
+.pages a,.pages strong {
+	padding: 0 .25em;
+}
+
+.pages strong {
+	position: relative;
+	top: .15em;
+}
+
+.pages a.previous {
+	padding-left: 20px;
+	padding-bottom: 2px;
+	
+}
+
+.pages a.next {
+	padding-bottom: 2px;
+	padding-right: 20px;
+}
+
+/* /Paging */ 
+
+
+/* Data sheet */
+#data_sheet {
+	padding-top: 0;
+	padding-bottom: 1.5em;
+	clear: both;
+	margin-left: 10px;
+	width: 585px;
+}
+
+#data_sheet h2 {
+	margin: 50px 0 1em 0;
+}
+
+#data_sheet dt {
+	float: left;
+	clear: left;
+	margin-right: .5em;
+}
+
+/* /Data sheet */ 
+
+
+/* Big picture page */
+#big_picture, #big_video {
+	width: 54.5em;
+	min-height: 33.25em;
+	height: auto !important;
+	height: 33.25em;
+	margin-bottom: 20px;
+	position: relative;
+	margin-top: 10px;
+	margin-left: -10px;
+}
+
+
+#big_picture a, #big_video a {
+	width: 64px;
+	position: absolute;
+	top: 18em;
+}
+
+#big_picture #previous {
+	left: -40px;;
+}
+
+#big_video #previous {
+	left: 0px;;
+}
+
+
+#big_picture #next {
+	right: -40px;
+}
+
+#big_video #next {
+	right: -5px;
+}
+
+
+#big_picture a span, #big_video a span {
+	width: 101%;
+	height: 60px;
+	position: absolute;
+}
+
+#big_picture img, #big_picture object {
+	padding: 2px;
+	border: 2px solid;
+}
+
+#big_picture label {
+	width: 13%;
+	padding: 3px;
+	position: absolute;
+	bottom: -8px;
+	right: 43.5%;
+	left: 43.5%;
+}
+
+#big_video label {
+	width: 400px;
+	padding: 3px;
+	position: absolute;
+	bottom: -20px;
+	right: 60px;
+}
+
+#big_video {
+	margin-bottom: 50px;
+}
+
+#viddler_video {
+	margin-left: 80px;
+}
+
+/* /Big picture page */ 
+
+/* Tags */
+#tags {
+	margin-left: 22px;
+	margin-bottom: 40px;
+}
+
+#tags h3,#tags p,#tags a {
+	display: inline;
+	margin-right: .7em;
+}
+
+/* /Tags */ 
+
+
+/* Selection */
+#all_pictures {
+	float: left;
+	width: 31em;
+	margin-top: .5em;
+	margin-bottom: -3.5em;
+	position: relative;
+	z-index: 3;
+	height: 50px;
+	margin-left: 10px;
+}
+
+#cart_items {
+	width: 20.25em;
+	min-height: 405px;
+	height: 25.3em;
+	border: 1px solid;
+	margin-top: .75em;
+	margin-left: 510px;
+	position: relative;
+	z-index: 2;
+}
+
+#all_pictures li,#cart_items li,#selected_pictures li {
+	float: left;
+	width: 75px;
+	height: 75px;
+	margin: 3px;
+	position: relative;
+}
+
+#all_pictures li label,#all_pictures li a,#cart_items label,#cart_items a,#selected_pictures label,#selected_pictures a
+	{
+	width: auto;
+	padding: 1px 3px;
+	margin: 0;
+	position: absolute;
+	bottom: 1px;
+}
+
+#all_pictures label,#cart_items label,#selected_pictures label {
+	left: 1px;
+}
+
+#all_pictures a,#cart_items a,#selected_pictures a {
+	right: 1px;
+}
+
+#all_pictures a:hover,#cart_items a:hover,#selected_pictures a:hover {
+	width: 12px;
+	height: 16px;
+}
+
+#selected_pictures a.remove_picture {
+	padding: 0;
+	position: static;
+}
+
+
+#select_pictures a {
+	margin-top: 10px;
+	margin-right: -50px;
+}
+
+#checkout #selected_pictures {
+	margin-bottom: 30px;
+}
+
+.cart-active,.move {
+	cursor: move;
+}
+
+body#selection #selection_size { 
+	position: absolute;
+	right: 220px;
+	top: 450px;
+}
+
+body#selection #selection_size label {
+	display: inline;
+	margin-right: 0px;
+}
+
+body#checkout #selection_size {
+	margin-bottom: 20px;
+}
+
+body#checkout #selection_size label,body#search #search_result_count label
+	{
+	display: inline;
+	margin: 0;
+}
+
+.go_to_checkout {
+	height: 48px;
+	padding: 15px 55px 5px 0;
+	margin: .5em 10px -.6em 40em;
+}
+
+#first.go_to_checkout {
+	position: relative;
+	bottom: 1.2em;
+}
+
+#back_to_gallery a {
+	display: block;
+	margin: 1.5em 0;
+}
+
+/* /Selection */ 
+
+
+/* Who */
+.quem_somos #main_content p {
+	margin: 1em 0;
+}
+
+.quem_somos dt {
+	float: left;
+	margin-right: .5em;
+}
+
+.quem_somos dd {
+	margin: .25em 0 1em 2.5em;
+}
+
+.quem_somos #main_content cite {
+	display: block;
+	padding: 46px 58px 14px 0;
+}
+
+/* /Who */ 
+
+
+/* Forms (contact, checkout, search) */
+label {
+	display: block;
+	width: 29%;
+	margin-top: .2em;
+	margin-right: 10px;
+}
+
+input,textarea {
+	display: block;
+	width: 40%;
+	padding: 3px;
+	border: 1px solid;
+	margin: -1.25em 0 .75em 18em;
+}
+
+input:hover,textarea:hover {
+	border: 1px solid;
+}
+
+button {
+	display: block;
+	padding: .2em .5em;
+	border: 1px outset;
+	margin: auto;
+}
+
+
+.submitting {
+	padding-right: 2.5em;
+	position: relative;
+	left: 1em;
+}
+
+.submitting:active {
+	border-style: outset;
+}
+
+button * {
+	outline: none;
+}
+
+#submit_error,#submit_success {
+	padding: .5em 8em;
+	margin-bottom: 1em;
+	margin-left: 	15px;
+	width: 630px;
+}
+
+/* Specific for checkout e-mail form */
+body#checkout #order_form p {
+	padding-left: 30px;
+}
+
+/* Specific for global search form */
+#global_search {
+	width: 9.5em;
+	padding-left: 19px;
+	position: absolute;
+	bottom: 27px;
+	right: 26px;
+}
+
+#global_search fieldset {
+	padding-right: 12px;
+}
+
+#global_search #search_type {
+	display: none;
+}
+
+#global_search #query {
+	width: 100%;
+	height: 19px;
+	padding: 0;
+	border: none;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	margin: 0;
+	font-family: helvetica;
+	font-size: 13px;
+}
+
+/* /Forms (contact, checkout, search) */
+
+
+/* Errors (404, 500, timeout, empty search results) */
+p#not_found {
+	margin: 2em 0 -2em 0;
+	position: relative;
+	z-index: 1;
+}
+
+.error_description {
+	padding-top: 270px;
+	margin: 50px 0 2em 0;
+}
+
+.error_hints {
+	margin-top: .5em;
+}
+
+#valid_search_suggestions {
+	padding-left: 23em;
+	margin-top: 1.2em;
+}
+
+#search #main_content p {
+	margin-left: 12px;
+}	
+
+/* /Errors (404, 500, timeout, empty search results) */ 
+
+
+
+/* Facebox */
+#facebox {
+	position: absolute;
+	top: 200px;
+	z-index: 100;
+}
+
+#checkout #facebox {
+	top: 250px;
+}
+
+#selection #facebox {
+	top: 50px;
+}
+
+#checkout #facebox div {
+	margin-top: -200px;
+}
+
+body>#facebox {
+	right: 0;
+	left: 0;
+}
+
+#facebox div {
+	min-width: 50px;
+	width: 50px;
+	padding-top: 10px;
+	margin: auto;
+}
+
+
+#facebox>div {
+	width: auto;
+	display: table;
+}
+
+#facebox p {
+	padding: 0 0 0 18px;
+	background-position: bottom left;
+	position: relative;
+}
+
+#facebox a {
+	padding: 15px 18px 0 0;
+	background-position: top right;
+	outline: none;
+	position: absolute;
+	top: -10px;
+	right: 0;
+}
+
+#facebox p>a {
+	left: 10px;
+}
+
+#facebox img {
+	padding: 20px 18px 18px 0;
+	background-position: bottom right;
+	margin-bottom: -3px;
+}
+
+#facebox p>img {
+	margin-bottom: -6px;
+}
+
+* :first-child+html #facebox img {
+	margin-bottom: -3px;
+}
+
+/* /Facebox */ 
+
+
+
+/* Footer */
+#footer {
+	padding: 1.25em 3.9em;
+	margin-bottom: 2em;
+	margin-left: 12px;
+	margin-right: 12px;
+}
+
+#footer p {
+	margin-top: 10px;
+	margin-bottom: .5em;
+}
+
+/* /Footer */ 
+
+
+/* Instructions */
+body.instructions #toc {
+  float:                  left;
+  padding:                .75em .75em .75em 1.5em;
+  border:                 1px solid;
+  margin:                 0 2em 1em 0 !important;
+}
+
+.instructions #main_content p {
+  margin:                 1em 0;
+}
+
+.instructions #main_content h2 {
+  clear:                  left;
+  padding:                1.5em 0 1em 0;
+}
+
+.instructions #main_content h3 {
+  padding:                1em 0 .75em 0;
+}
+
+.instructions #main_content dl, 
+.instructions #main_content ul {
+  margin:                 1.6em 6em;
+}
+
+.instructions #main_content dd {
+  margin:                 0 0 1em 2.5em;
+}
+
+.instructions #main_content ul li {
+  margin-bottom:          1em;
+}
+
+.instructions #main_content ul ul {
+  margin:                 0 1em;
+}
+
+code {
+  padding:                .3em .5em;
+}
+
+.instructions table {
+  border-collapse:        collapse;
+  margin:                 auto;
+}
+
+.instructions table * {
+  border:                 1px solid;
+}
+
+.instructions th {
+  padding:                .5em 1.5em;
+}
+
+.instructions td {
+  padding:                .5em 1.5em;
+}
+
+.instructions td span {
+  display:                block;
+  border:                 none;
+  margin:                 0 1.5em;
+}
+
+.instructions td a, 
+.instructions td code {
+  border:                 none;
+  margin:                 0 -1em;
+  white-space:            nowrap;
+}
+
+.instructions td code {
+  display:                block;
+  margin-top:             .75em;
+}
+
+pre {
+  padding:                .5em 3em;
+  border:                 1px solid;
+  margin:                 1em 0;
+  overflow:               auto;
+}
+
+.instructions #main_content h4 {
+  margin-top:             -.8em;
+}
+/* /Instructions */
