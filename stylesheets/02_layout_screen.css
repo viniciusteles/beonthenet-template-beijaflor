@@ -108,8 +108,10 @@ a {
 	padding-left: 10px;
 }
 
-#selection #subnavigation,#checkout #subnavigation, 
-#pictures_sent #subnavigation, #search_picture #subnavigation {
+#selection #subnavigation, 
+#checkout #subnavigation, 
+#pictures_sent #subnavigation, 
+#search_picture #subnavigation {
 	margin-left: 15px;
 	margin-bottom: 30px;
 }
@@ -488,7 +490,8 @@ p.pages {
 	margin-right: -50px;
 }
 
-#checkout #selected_pictures {
+#checkout #selected_pictures,
+#pictures_sent #selected_pictures {
 	margin-bottom: 30px;
 }
 
@@ -507,11 +510,14 @@ body#selection #selection_size label {
 	margin-right: 0px;
 }
 
-body#checkout #selection_size {
+body#checkout #selection_size,
+body#pictures_sent #selection_size {
 	margin-bottom: 20px;
 }
 
-body#checkout #selection_size label,body#search #search_result_count label
+body#checkout #selection_size label,
+body#pictures_sent #selection_size label,
+body#search #search_result_count label
 	{
 	display: inline;
 	margin: 0;
@@ -608,7 +614,8 @@ button * {
 }
 
 /* Specific for checkout e-mail form */
-body#checkout #order_form p {
+body#checkout #order_form p,
+body#pictures_sent #order_form p {
 	padding-left: 30px;
 }
 
@@ -680,7 +687,8 @@ p#not_found {
 	z-index: 100;
 }
 
-#checkout #facebox {
+#checkout #facebox,
+#pictures_sent #facebox {
 	top: 250px;
 }
 
@@ -688,7 +696,8 @@ p#not_found {
 	top: 50px;
 }
 
-#checkout #facebox div {
+#checkout #facebox div,
+#pictures_sent #facebox div {
 	margin-top: -200px;
 }
 
