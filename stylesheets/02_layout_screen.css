@@ -231,11 +231,24 @@ body.videos #thumbnails h4 {
 }
 
 /* Summary */
-#summary,#about_us,#data_sheet,.error_hints {
+#summary,#about_us,#data_sheet,.error_hints, #picture_description {
 	padding: .65em 7.5em;
 	/*border:                 3px double;*/
 	border: 2px solid;
 	margin-bottom: 10px;
+}
+
+#summary, #picture_description {
+	position: relative;
+  clear: both;
+	margin-left: 10px;
+	margin-bottom: 40px;
+
+}
+
+#picture_description {
+  margin-left: 20px;	
+	margin-right: 20px;	
 }
 
 #summary {
@@ -243,11 +256,7 @@ body.videos #thumbnails h4 {
 	height: auto !important;
 	height: 4.5em;
 	padding-right: 20em;
-	position: relative;
-	clear: both;
-	width: 380px;
-	margin-left: 10px;
-	margin-bottom: 40px;
+  width: 380px;
 }
 
 #picture #summary {
