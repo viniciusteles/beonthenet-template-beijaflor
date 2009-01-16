@@ -40,7 +40,7 @@ a:focus, a:hover, a:active {
 	background: url(../images/menu.gif) no-repeat 0 0;
 }
 
-#header li a:hover {
+#header li a:hover, #header li.current a {
 	background: url(../images/menu.gif) no-repeat 0 -43px;
 	color: #AF5FBF;
 }
