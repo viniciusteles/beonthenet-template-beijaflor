@@ -80,6 +80,9 @@ a {
 	overflow: hidden;
 }
 
+#slogan {
+  display:                none;
+}
 /* /Header tabbed menu */ 
 
 
