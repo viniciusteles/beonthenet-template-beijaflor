@@ -279,7 +279,7 @@ body.videos #thumbnails h4 {
 /* Link to Selection */
 #go_to_selection a {
 	width: 7em;
-	height: 6em;
+/*  height: 5em;*/
 	padding-left: 55px;
 	position: absolute;
 	top: 1em;
