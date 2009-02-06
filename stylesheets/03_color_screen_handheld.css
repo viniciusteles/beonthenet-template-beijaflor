@@ -359,22 +359,22 @@ button {
 
 
 /* Errors (404, 500, timeout, empty search results) */
-.error_description {
-	background:             url(../images/error_404.jpg) no-repeat center top;
-	
+body.application #main_content h2 {
+  background:             no-repeat center top;
 }
-
-#error_500 {
+body#page_not_found #main_content h2 {
+	background:             url(../images/error_404.jpg);
+}
+body#server_error #main_content h2 {
 	background-image:       url(../images/error_500.jpg);
 }
-
-#error_timeout {
-	background-image:       url(../images/error_timeout.jpg);
+body#timeout #main_content h2 {
+ 	background-image:       url(../images/error_timeout.jpg); 
 }
 
 #searched_item {
 	color:                  #63336C;
-	font-weight: 			bold;
+	font-weight: 		bold;
 }
 /* /Errors (404, 500, timeout, empty search results) */
 

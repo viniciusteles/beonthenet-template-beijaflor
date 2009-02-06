@@ -674,14 +674,14 @@ body#pictures_sent #order_form p {
 
 /* Errors (404, 500, timeout, empty search results) */
 p#not_found {
-	margin: 2em 0 -2em 0;
-	position: relative;
-	z-index: 1;
+	margin:                 2em 0 -2em 0;
+	position:               relative;
+	z-index:                1;
 }
 
-.error_description {
-	padding-top: 270px;
-	margin: 50px 0 2em 0;
+body.application #main_content h2 {
+	padding-top:            270px;
+	margin:                 50px 0 2em 0;
 }
 
 .error_hints {
