@@ -514,7 +514,8 @@ p.pages {
 body#selection #selection_size {
   display:                inline; 
   float:                  right;
-  margin:                 -50px 15px 0 0;
+  height:                 0;
+  margin:                 -40px 15px 0 0;
   position:               relative;
   right:                  210px;
 }
@@ -522,13 +523,13 @@ body#selection #main_content > #selection_size {
   margin-top:             -25px;
   right:                  0;
 }
-* :first-child + html body#selection #selection_size {
+* :first-child + html body#selection #main_content > #selection_size {
   right:                  200px;
 }
 
 body#selection #selection_size label {
 	display: inline;
-	margin-right: 0px;
+	margin-right: 5px;
 }
 
 body#checkout #selection_size,
