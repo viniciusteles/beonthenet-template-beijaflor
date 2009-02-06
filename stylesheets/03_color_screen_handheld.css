@@ -10,15 +10,16 @@ body {
 	background: 		#FFF;	
 }
 
-
 a:visited {
   color:                  #000;
 }
-
 a:focus, a:hover, a:active {
   color:                  #7D4189;
 }
 
+h4 a:focus, h4 a:hover {
+  color:                #703A7B;
+}
 
 
 /* Header tabbed menu */
@@ -44,25 +45,16 @@ a:focus, a:hover, a:active {
 	background: url(../images/menu.gif) no-repeat 0 -43px;
 	color: #AF5FBF;
 }
-
-
-body.best_galleries #header li.best_galleries a,
-body.full_galleries #header li.full_galleries a, 
-body.videos #header li.all_videos a, 
-body.quem_somos #header li.quem_somos a,
-body.contact #header li.contact a, 
-body.blog #header li.blog a {
-	background: url(../images/menu.gif) no-repeat 0 -43px;
-	color: #AF5FBF;
-}
-
 /* /Header tabbed menu */
-
 
 
 /* Main content top segment */
 #main_content {
 	background-color:       #ebebe6;
+}
+
+#main_content h1 {
+  color:                  #63336C;
 }
 
 #go_back_to_thumbnails {
@@ -86,6 +78,9 @@ body.blog #header li.blog a {
 
 
 /* Thumbnails */
+ul#thumbnails li {
+  color:                  #000;
+}
 
 ul#thumbnails li div {
 	border: 			1px solid #BFBFBF;

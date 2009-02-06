@@ -37,9 +37,7 @@ h4, h4 a {
 
 h4 a:focus, h4 a:hover {
   text-decoration:        underline;
-  color: #703A7B;
 }
-
 /* /Typography global attributes */
 
 
@@ -52,9 +50,6 @@ h4 a:focus, h4 a:hover {
 	font-family: 				Georgia, Geneva, "Times New Roman", serif;
 	font-style: 				oblique;
 	margin-left: 				20px;
-
-	
-  
 }
 
 #header li {
@@ -76,22 +71,17 @@ h4 a:focus, h4 a:hover {
 #header #logo_screen a {
 	text-decoration: none;
 }
-
-
 /* /Header tabbed menu */
-
 
 
 #main_content h1 {
 	font-family: Georgia, serif;
-	color: #63336C;
 }
 	
 
 /* Thumbnails */
 ul#thumbnails li {
   font-size:     	         100%;
-  color: #000;
 }
 
 ul#thumbnails li div a {
