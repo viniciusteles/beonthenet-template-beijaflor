@@ -512,9 +512,8 @@ p.pages {
 }
 
 body#selection #selection_size { 
-	position: absolute;
-	right: 220px;
-	top: 450px;
+  float:                  right ;
+  margin:                 -25px 15px 0 0;
 }
 
 body#selection #selection_size label {
@@ -529,8 +528,7 @@ body#pictures_sent #selection_size {
 
 body#checkout #selection_size label,
 body#pictures_sent #selection_size label,
-body#search #search_result_count label
-	{
+body#search #search_result_count label {
 	display: inline;
 	margin: 0;
 }
