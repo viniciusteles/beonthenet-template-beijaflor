@@ -516,15 +516,9 @@ body#selection #selection_size {
   float:                  right;
   height:                 0;
   margin:                 -40px 15px 0 -200px;
-/*  position:               relative;*/
-/*  right:                  210px;*/
 }
 body#selection #main_content > #selection_size {
-/*  margin-top:             -25px;*/
-/*  right:                  0;*/
-}
-*:first-child + html body#selection #selection_size {
-/*  right:                  200px;*/
+  margin-top:             -25px;
 }
 
 body#selection #selection_size label {
