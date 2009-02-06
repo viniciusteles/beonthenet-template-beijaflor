@@ -511,9 +511,19 @@ p.pages {
 	cursor: move;
 }
 
-body#selection #selection_size { 
-  float:                  right ;
-  margin:                 -25px 15px 0 0;
+body#selection #selection_size {
+  display:                inline; 
+  float:                  right;
+  margin:                 -50px 15px 0 0;
+  position:               relative;
+  right:                  210px;
+}
+body#selection #main_content > #selection_size {
+  margin-top:             -25px;
+  right:                  0;
+}
+* :first-child + html body#selection #selection_size {
+  right:                  200px;
 }
 
 body#selection #selection_size label {
