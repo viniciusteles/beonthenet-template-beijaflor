@@ -35,9 +35,9 @@ p.pages {
 }
 
 #selection h2#selection_size {
-	position: absolut;
-	padding-top: 20px;
-	margin-right: -280px;
+/*  position: absolut;*/
+/*  padding-top: 20px;*/
+/*  margin-right: -280px;*/
 }
 
 ul#thumbnails li{
@@ -88,7 +88,7 @@ ul#thumbnails li h4 {
 }
 
 body#selection #selection_size {
-  right:                  38.25em;
+/*  right:                  38.25em;*/
 }
 
 #checkout #submit_error {
@@ -140,6 +140,6 @@ body.videos #thumbnails h3 {
 }
 
 body#selection #selection_size { 
-	right: 488px;
+/*  right: 488px;*/
 }
 

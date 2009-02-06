@@ -83,7 +83,7 @@ ul#thumbnails li div span.ie {
 
 
 body#selection #selection_size {
-  right:                  34.25em;
+/*  right:                  34.25em;*/
 }
 
 .moved_to_cart {
@@ -117,7 +117,7 @@ label {
 }
 
 #selection h2#selection_size {
-	margin-right: -220px;
+/*  margin-right: -220px;*/
 }
 
 
@@ -127,6 +127,6 @@ label {
 
 
 body#selection #selection_size { 
-	right: 443px;
+/*  right: 443px;*/
 }
 
