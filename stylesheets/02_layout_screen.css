@@ -523,13 +523,19 @@ body#selection #main_content > #selection_size {
   margin-top:             -25px;
   right:                  0;
 }
-* :first-child + html body#selection #main_content > #selection_size {
+*:first-child + html body#selection #selection_size {
   right:                  200px;
 }
 
 body#selection #selection_size label {
-	display: inline;
-	margin-right: 5px;
+	display:                inline;
+	margin-right:           5px;
+}
+body#selection #selection_size > label {
+  margin-right:           0;
+}
+*:first-child + html body#selection #selection_size label {
+  margin-right:           5px;
 }
 
 body#checkout #selection_size,
