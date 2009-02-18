@@ -305,7 +305,7 @@ p#not_found, .error_description {
 	line-height:            1.7em;
 }
 
-.error_hints li {
+body.application #main_content ul li {
   list-style-type:        disc;
 }
   

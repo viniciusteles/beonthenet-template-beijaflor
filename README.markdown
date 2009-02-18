@@ -1,104 +1,21 @@
-# Introdução
+# Be on the Net Estático
 
-Este é um [template][0] criado para o serviço [Be on the Net][], da [Improve It][]. Foi criado por [Harlley Oliveira][1], analista de sistemas, que vive em Belo Horizonte, MG, Brasil. Disponibilizado em 08/12/2008.
+**Be on the Net Estático** é um projeto que contém arquivos HTML estáticos gerados pelo [Be on the Net][1]. Ele tem como objetivo atender aos designers que se interessarem em implementar templates para o [Be on the Net][1], uma plataforma que está sendo desenvolvida pela [Improve It][3].
 
-# Ficha Técnica
+## Mapa da Mina
 
-Código no [Be on the Net][]: **template-harlleyoliveira-01-2008**.  
-Autor: [Harlley Oliveira][1] - [contatos][2].  
-Localização: Belo Horizonte, MG, Brasil.  
-Licença: [Creative Commons Atribuição 2.5][cc].  
+Para compreender como utilizar este projeto, leia os seguintes arquivos:
 
-## Organic Design Elements
+* intrucoes.html - Contém informações preliminares e instruções básicas para os designers que quiserem criar templates para o [Be on the Net][1].
 
-Autoria: [Ben Blogged][o1]  
-Localização: desconhecida  
-Licença: [Creative Commons Atribuição 2.5][cc]  
-Fonte: [Vecteezy][o2]  
+* faq.text - Contém perguntas mais frequentes e suas respectivas respostas. Se você tiver novas dúvidas, por favor, [entre em contato][2].
 
-## Fura Vector Pack Set 1
+* release-notes.txt - Contém uma descrição das modificações que vêm sendo feitas no projeto. Leia para compreender o que mudou desde a última vez que você atualizou os arquivos.
 
-Autoria: [Furaworld][f1]  
-Localização: Kuala Lumpur, Malásia  
-Licença: [Creative Commons Atribuição 2.5][cc]  
-Fonte: [Vecteezy][f2]  
+* fontes-de-material-creative-commons.txt - Contém uma lista de sites que costumam conter material disponibilizado como Creative Commons Attribution. 
 
-## Toby Sleeping on the Grass
+* modelo-do-contrato.pdf - Este é o modelo do contrato de compra de templates que a Improve It utiliza com os designers que produzem templates para o Be on the Net. É recomendável que você leia este modelo para conhecer as exatas condições em que as compras de templates são feitas.
 
-Autoria: [Anthony Willett][t1]  
-Localização: desconhecida.  
-Licença: [Creative Commons Atribuição 2.5][cc]  
-Fonte: [Flickr][t2]  
-
-## Boy Looking Up
-
-Autoria: [Ivan Bolshakov][b1]  
-Localização: Dagestan, Rússia  
-Licença: [Creative Commons Atribuição 2.5][cc]  
-Fonte: [Flickr][b2]  
-
-## Man regreting
-
-Autoria: [Elward Photography][m1]  
-Localização: Dublin, Irlanda  
-Licença: [Creative Commons Atribuição 2.5][cc]  
-Fonte: [Flickr][m2]  
-
-## Ícones
-
-Autoria: [Axialis Software][i1]  
-Localização: Paris, França  
-Licença: [Creative Commons Atribuição 2.5][cc]  
-Fonte: [Free Icons from Axialis][i2]  
-
-## Fotos
-
-Autoria: [Patricia Figueira][p].   
-Localização: Niterói, RJ, Brasil.  
-Licença: Copyright. Usado com permissão.  
-Fonte: [Patricia Figueira][p].  
-
-## Vídeos
-
-Autoria: [Eclethica Produtora][e].  
-Localização: Niterói, RJ, Brasil.  
-Licença: Copyright. Usado com permissão.  
-Fonte: [Eclethica Produtora][e].
-
-# Utilização
-
-Você é livre para utilizar este template e criar outros derivados dele para utilização no [Be on the Net][]. Para isso, basta respeitar os termos da licença [Creative Commons Atribuição 2.5][cc], que basicamente determinam que você deve citar o autor original do template em qualquer trabalho que se utilize ou derive dele. 
-
-Você tem permissão para utilizar este template com finalidades comerciais, bem como não-comerciais. 
-
-Instruções sobre como criar um novo template para o [Be on the Net][] podem ser obtidas no projeto [beonthenet-estatico][be]. Se preferir, faça um [download dos arquivos][d].
-
-[Be on the Net]: http://beonthe.net "Be on the Net"
-[Improve It]: http://improveit.com.br "Improve It"
-[cc]: http://creativecommons.org/licenses/by/2.5/br/ "Creative Commons Atribuição 2.5"
-[p]:  http://www.patriciafigueira.com.br "Patricia Figueira"
-[e]:  http://www.eclethicaprodutora.com.br "Eclethica Produtora"
-[be]: http://github.com/viniciusteles/beonthenet-estatico/tree/master
-[d]: http://github.com/viniciusteles/beonthenet-estatico/zipball/master
-
-[0]: http://beonthe.net/galerias/templates/galeria/72157610813229212/1
-[1]: http://webtoo.com.br/
-[2]: http://www.webtoo.com.br/contato/
-
-[o1]: http://benblogged.com/
-[o2]: http://www.vecteezy.com/vf/172-Organic-Design-Elements
-
-[f1]: http://furaworld.deviantart.com/
-[f2]: http://www.vecteezy.com/vf/145-Fura-Vector-Pack-Set-1
-
-[t1]: http://www.flickr.com/photos/anto164/
-[t2]: http://www.flickr.com/photos/anto164/2437044413/
-
-[b1]: http://bolshakov.ru/
-[b2]: http://www.flickr.com/photos/bolshakov/381058337/
-
-[m1]: http://www.elward-photography.com
-[m2]: http://flickr.com/photos/elward-photography/2854988828/
-
-[i1]: http://www.axialis.com
-[i2]: http://www.axialis.com/free/icons/
+[1]:    http://beonthe.net
+[2]:    http://www.improveit.com.br/br/contato
+[3]:    http://www.improveit.com.br
