@@ -57,16 +57,13 @@ a {
 	width: 105px;
 	height: 30px;
 	text-align: center;
-	padding-top: 12px;
-	
+	padding-top: 12px;	
 }
-
 
 #header li a:hover {
 	display: block;
 	padding-top: 10px;
 }
-
 
 #header h1#logo_print {
 	display: none;
@@ -795,6 +792,14 @@ body.text #toc {
   padding:                .75em .75em .75em 1.5em;
   border:                 1px solid;
   margin:                 0 2em 1em 0 !important;
+}
+
+.text #main_content {
+  padding:                1.56em 200px;
+}
+
+.text #main_content h1, .text #main_content h2, .text #main_content h3 {
+  margin-left:            -126px;
 }
 
 .text #main_content p {
