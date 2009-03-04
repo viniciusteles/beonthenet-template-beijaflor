@@ -810,6 +810,10 @@ body.text #toc {
   padding:                1em 0 .75em 0;
 }
 
+.text #main_content ol {
+  padding:                0 30px;
+}
+
 .text #main_content dl, 
 .text #main_content ul {
   margin:                 1.6em 6em;

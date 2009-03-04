@@ -404,6 +404,10 @@ body.text #toc {
   border-color:           #45254B;
 }
 
+.text #main_content ol li p:first-child {
+  color:                  #AF5FBF;
+}
+
 body.text #main_content dt {
   color:                  #512A58;
 }

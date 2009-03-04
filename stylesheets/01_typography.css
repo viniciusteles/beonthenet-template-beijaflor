@@ -339,7 +339,15 @@ body.application #main_content ul li {
 
 
 /* Text pages */
+.text #main_content ol {
+/*  font-size:              75%;*/
+}
+
 .text #main_content ol li {
+  list-style:             decimal;
+}
+
+.text #main_content ol li p {
   font-size:              100%;
 }
 
@@ -357,7 +365,7 @@ body.application #main_content ul li {
   list-style:             circle;
 }
 
-.text #main_content ul ul li {
+.text #main_content ol ul li, .text #main_content ul ul li {
   list-style:             disc;
   font-size:              95%;
 }
