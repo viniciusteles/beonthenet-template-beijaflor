@@ -54,7 +54,7 @@ a {
 
 #header li a {
 	display: block;
-	width: 108px;
+	width: 105px;
 	height: 30px;
 	text-align: center;
 	padding-top: 12px;
@@ -641,7 +641,7 @@ body#pictures_sent #order_form p {
 	width: 9.5em;
 	padding-left: 19px;
 	position: absolute;
-	bottom: 27px;
+  bottom: 27px;
 	right: 26px;
 }
 

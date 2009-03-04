@@ -6,7 +6,8 @@ body {
 }
 
 #header ul {
-	bottom:                 15px;
+  bottom:                 15px;
+/*  border:1px solid green;*/
 }
 
 #big_picture, #big_video {
