@@ -789,7 +789,7 @@ body>#facebox {
 /* /Footer */ 
 
 
-/* Instructions */
+/* Text pages */
 body.text #toc {
   float:                  left;
   padding:                .75em .75em .75em 1.5em;
@@ -876,4 +876,4 @@ pre {
 .text #main_content h4 {
   margin-top:             -.8em;
 }
-/* /Instructions */
+/* /Text pages */

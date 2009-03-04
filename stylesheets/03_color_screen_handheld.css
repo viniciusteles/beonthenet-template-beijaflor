@@ -398,7 +398,7 @@ body#timeout #main_content h2 {
 /* /Footer */
 
 
-/* Instructions */
+/* Text pages */
 body.text #toc {
   background:             #DEDEDA;
   border-color:           #45254B;
@@ -430,5 +430,5 @@ pre {
   background:             #DEDEDA;
   border-color:           #45254B;
 }
-/* /Instructions */
+/* /Text pages */
 

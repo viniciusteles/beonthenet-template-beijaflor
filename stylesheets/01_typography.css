@@ -338,8 +338,12 @@ body.application #main_content ul li {
 /* /Footer */
 
 
-/* Instructions */
-body.text #main_content dt {
+/* Text pages */
+.text #main_content ol li {
+  font-size:              100%;
+}
+
+.text #main_content dt {
   font-weight:            bold;
   font-size:              80%;
 }
@@ -381,4 +385,4 @@ p code {
 .text td a {
   font-size:              80%;
 }
-/* /Instructions */
+/* /Text pages */
