@@ -399,12 +399,12 @@ body#timeout #main_content h2 {
 
 
 /* Instructions */
-body.instructions #toc {
+body.text #toc {
   background:             #DEDEDA;
   border-color:           #45254B;
 }
 
-body.instructions #main_content dt {
+body.text #main_content dt {
   color:                  #512A58;
 }
 
@@ -413,16 +413,16 @@ code {
   background:             #DEDEDA; 
 }
 
-.instructions table * {
+.text table * {
   border-color:           #45254B;
 }
 
-.instructions th {
+.text th {
   color:                  #45254B;
   background:             #DEDEDA;
 }
 
-.instructions td span {
+.text td span {
   color:                  #555;
 }
 
