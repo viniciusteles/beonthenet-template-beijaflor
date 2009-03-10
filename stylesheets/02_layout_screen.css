@@ -76,6 +76,12 @@ a {
 	height: 40px;
 	overflow: hidden;
 }
+
+#slogan {
+  position:               absolute;
+  bottom:                 135px;
+  right:                  127px;
+}
 /* /Header tabbed menu */ 
 
 
