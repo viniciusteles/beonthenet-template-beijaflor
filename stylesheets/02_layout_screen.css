@@ -562,28 +562,6 @@ body#search #search_result_count label {
 /* /Selection */ 
 
 
-/* Who */
-.quem_somos #main_content p {
-	margin: 1em 0;
-}
-
-.quem_somos dt {
-	float: left;
-	margin-right: .5em;
-}
-
-.quem_somos dd {
-	margin: .25em 0 1em 2.5em;
-}
-
-.quem_somos #main_content cite {
-	display: block;
-	padding: 46px 58px 14px 0;
-}
-
-/* /Who */ 
-
-
 /* Forms (contact, checkout, search) */
 label {
 	display: block;
@@ -793,6 +771,24 @@ body>#facebox {
 
 
 /* Text pages */
+body.text #main_content p {
+	margin: 1em 0;
+}
+
+body.text dt {
+	float: left;
+	margin-right: .5em;
+}
+
+body.text dd {
+	margin: .25em 0 1em 2.5em;
+}
+
+body.text #main_content cite {
+	display: block;
+	padding: 46px 58px 14px 0;
+}
+
 body.text #toc {
   float:                  left;
   padding:                .75em .75em .75em 1.5em;

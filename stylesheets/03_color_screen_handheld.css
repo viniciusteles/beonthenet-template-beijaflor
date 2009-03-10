@@ -274,20 +274,6 @@ body#selection #selection_size label {
 /* /Selection */
 
 
-/* Who */
-.quem_somos dt, 
-.quem_somos #main_content strong {
-  color:                #422348;
-  font-weight: 			bold;
-}
-
-body.quem_somos p, body.quem_somos dl {
-	padding-left: 10px;
-}	
-
-/* /Who */
-
-
 /* Forms (contact, checkout, search) */
 label {
 	color:                  #422348;
@@ -399,6 +385,16 @@ body#timeout #main_content h2 {
 
 
 /* Text pages */
+body.text dt, 
+body.text #main_content strong {
+  color:                #422348;
+  font-weight: 			bold;
+}
+
+body.text p, body.text dl {
+	padding-left: 10px;
+}
+
 body.text #toc {
   background:             #DEDEDA;
   border-color:           #45254B;
@@ -435,4 +431,3 @@ pre {
   border-color:           #45254B;
 }
 /* /Text pages */
-

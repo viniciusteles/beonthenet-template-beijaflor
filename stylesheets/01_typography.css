@@ -242,22 +242,6 @@ body#search #search_result_count label {
 /* /Selection */
 
 
-/* Who */
-.quem_somos h1 + p:first-letter {
-  font-size:              150%;
-  line-height:            2em;
-}
-
-.quem_somos #main_content strong {
-  font-weight:            normal;
-}
-
-.quem_somos cite {
-  text-align:             right;
-}
-/* /Who */
-
-
 /* Forms (contact, checkout, search) */
 label {
   font-size:              75%;
@@ -339,6 +323,19 @@ body.application #main_content ul li {
 
 
 /* Text pages */
+.text h1 + p:first-letter {
+  font-size:              150%;
+  line-height:            2em;
+}
+
+.text #main_content strong {
+  font-weight:            normal;
+}
+
+.text cite {
+  text-align:             right;
+}
+
 .text #main_content ol {
 /*  font-size:              75%;*/
 }

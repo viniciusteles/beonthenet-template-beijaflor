@@ -34,12 +34,12 @@ ul#thumbnails li div {
 }
 
 
-#search #footer, body.quem_somos #footer, body.videos #footer,
+#search #footer, body.text #footer, body.videos #footer,
 body.contact #footer, body.application #footer, body.best_galleries #footer {
 	background: none;
 }	
  
-#search #main_content, body.quem_somos #main_content, body.videos #main_content, 
+#search #main_content, body.text #main_content, body.videos #main_content, 
 body.contact #main_content, body.application #main_content, body.best_galleries #main_content  {
 	background: #EBEBE6 url(../images/footer.png) no-repeat bottom;
 }
