@@ -35,13 +35,13 @@ ul#thumbnails li div {
 
 
 #search #footer, body.text #footer, body.videos #footer,
-body.contact #footer, body.application #footer, body.best_galleries #footer {
-	background: none;
+body.contact #footer, body.application #footer, body.pictures #footer {
+  background: none;
 }	
  
 #search #main_content, body.text #main_content, body.videos #main_content, 
-body.contact #main_content, body.application #main_content, body.best_galleries #main_content  {
-	background: #EBEBE6 url(../images/footer.png) no-repeat bottom;
+body.contact #main_content, body.application #main_content, body.pictures #main_content  {
+  background: #EBEBE6 url(../images/footer.png) no-repeat bottom;
 }
 
 body#checkout #order_form p {
@@ -57,7 +57,7 @@ body.videos #thumbnails h4 {
 	width: 384px;
 }
 
-#selection footer {
+#selection #footer {
 	background-repeat: no-repeat;
 }	
 
