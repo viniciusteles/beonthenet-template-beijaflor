@@ -7,8 +7,8 @@ body {
 
 #header ul {
   bottom:                 15px;
-/*  border:1px solid green;*/
 }
+
 
 #big_picture, #big_video {
 	margin-left: -20px;
@@ -41,13 +41,6 @@ p.pages {
 /*  margin-right: -280px;*/
 }
 
-ul#thumbnails li{
-	margin-right: 50px;
-}
-
-ul#thumbnails li h4 {
-	margin-right: -20px;
-}
 
 #all_pictures li, #cart_items li {
 	margin:                 1px;
@@ -90,7 +83,9 @@ ul#thumbnails li h4 {
 
 body#selection #selection_size {
 /*  right:                  38.25em;*/
+/*  right: 488px;*/
 }
+
 
 #checkout #submit_error {
 	margin-top:             1em;
@@ -128,19 +123,7 @@ body#selection #selection_size {
 	
 }
 
-body.videos ul#thumbnails li div a:hover {
-	background: none;
-}
-
-body.videos #thumbnails h3 {
-	height: 32px;
-}
 
 #selection p.pages {
 	margin-left: 20px;
 }
-
-body#selection #selection_size { 
-/*  right: 488px;*/
-}
-

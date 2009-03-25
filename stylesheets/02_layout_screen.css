@@ -147,26 +147,36 @@ ul#thumbnails {
 
 ul#thumbnails li {
 	float: left;
-	margin: 0 100px 2.5em 0;
-	width: 350px;
+	width: 370px;
+	margin: 40px 80px 2em 0;
+	position:     relative;
+}
+body.videos #thumbnails li {
+  margin-top:   25px;
 }
 
 ul#thumbnails li h3 {
-	float: left;
+  width:        280px;
+  position:     absolute;
+  bottom:       280px;
+  left:         0;
+  z-index:      1;
 }
 
 ul#thumbnails li h4 {
-	float: right;
-	width: 40px;
+  position:     absolute;
+  right:        0;
+  bottom:       277px;
+  z-index:      1;
 }
 
 ul#thumbnails li div {
 	position: relative;
 	width: 350px;
 	padding: 10px;
-	margin-right: 25px;
+/*  margin-right: 25px;*/
 	clear: both;
-	margin-top: 23px;
+/*  margin-top: 23px;*/
 }
 
 /* Vertically centering images 
@@ -197,7 +207,7 @@ body.videos #thumbnails img {
 
 
 body.videos #thumbnails h3, body.videos #thumbnails h4 {
-	float: none;
+/*  float: none;*/
 }
 
 body.videos ul#thumbnails li div{
@@ -205,9 +215,6 @@ body.videos ul#thumbnails li div{
 	border: none;
 	background: url(../images/film.gif) center;
 	background-repeat: no-repeat;
-	margin-top: -10px;
-	
-	
 }
 
 body.videos ul#thumbnails li div a{
@@ -215,12 +222,17 @@ body.videos ul#thumbnails li div a{
 }
 
 body.videos #thumbnails h3 {
-	margin-left: 15px;
-	width: 100%;
-	height: 30px;
+/*  margin-left: 15px;*/
+/*  width: 100%;*/
+/*  height: 30px;*/
+  bottom:       262px;
+  width:        265px;
+  left:         10px;
 }
 body.videos #thumbnails h4 {
-	margin-left: 15px;
+/*  margin-left: 15px;*/
+  bottom:       257px;
+  right:        6px;
 }
 
 

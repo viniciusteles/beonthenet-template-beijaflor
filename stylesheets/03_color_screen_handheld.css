@@ -83,22 +83,26 @@ ul#thumbnails li {
 }
 
 ul#thumbnails li div {
-	border: 			1px solid #BFBFBF;
-	background-color: 	#FFF;
+  border:       1px solid #BFBFBF;
+  background-color:   #FFF;
 }
 
 
 ul#thumbnails li div a {
-	background:             #0E070F;
+  background:             #0E070F;
 }
 
 ul#thumbnails li div a:visited {
-	background:             #8F8F8F;
-	
+  background:             #8F8F8F;
 }
+body.videos ul#thumbnails li div a:visited {
+	background:             none;
+}
+
 ul#thumbnails li div a:hover {
-	background:             #2C172F;
+  background:             #2C172F;
 }
+
 
 
 ul#thumbnails a img, 
