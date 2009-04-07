@@ -91,6 +91,10 @@ label {
 	margin-top:             .3em;
 }
 
+#message_confirmation_yes {
+  margin-left:            17.2em;
+}
+
 #submit_button {
 	width:                  12em;
 	margin-left:            43%;
