@@ -36,14 +36,22 @@ h4 a:focus, h4 a:hover {
 	list-style: none;
 }
 
-#header li a {
-	color: #7e7e7e;
-	background: url(../images/menu.gif) no-repeat 0 0;
+#header li, #header li a {
+  background:             url(../images/menu_tab.gif) no-repeat top left;
 }
 
+#header li a {
+  color: #7e7e7e;
+  background-position:    top right;
+}
+#header li.current {
+  background-image:       url(../images/menu_tab_current.gif);
+}
+#header li.current a {
+  background-image:       url(../images/menu_tab_current.gif);
+}
 #header li a:hover, #header li.current a {
-	background: url(../images/menu.gif) no-repeat 0 -43px;
-	color: #AF5FBF;
+  color:                  #AF5FBF;
 }
 /* /Header tabbed menu */
 

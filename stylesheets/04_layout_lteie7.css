@@ -4,8 +4,8 @@ hr {
   margin:                 -8px 0 -7px 0;
 }
 
-#header li {
-	padding:                0;
+#header li a, #header li.current a {
+  display:                inline-block;
 }
 
 /* Vertically centering images */

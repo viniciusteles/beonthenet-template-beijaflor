@@ -47,22 +47,20 @@ a {
 }
 
 #header li {
-	display: inline;
-	float: left;
-	margin: 0;
+	display:              inline;
+	float:                left;
+	padding-left:         10px;
+	margin:               0;
 }
 
 #header li a {
-	display: block;
-	width: 105px;
-	height: 30px;
-	text-align: center;
-	padding-top: 12px;	
+	display:              block;
+  height:               30px;
+  padding:              12px 20px 0 10px;
+  margin-right:         -2px;
 }
-
-#header li a:hover {
-	display: block;
-	padding-top: 10px;
+#header li.current a {
+  padding-top:          10px;
 }
 
 #header h1#logo_print {
