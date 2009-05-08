@@ -325,7 +325,6 @@ body.application #main_content ul li {
 /* Text pages */
 .text h1 + p:first-letter {
   font-size:              150%;
-  line-height:            2em;
 }
 
 .text #main_content strong {
