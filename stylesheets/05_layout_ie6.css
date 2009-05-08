@@ -9,6 +9,10 @@ body {
   bottom:                 15px;
 }
 
+body.videos #thumbnails img {
+  width:expression(this.width > 240 ? "240px" : true);
+}
+
 
 #big_picture, #big_video {
 	margin-left: -20px;
