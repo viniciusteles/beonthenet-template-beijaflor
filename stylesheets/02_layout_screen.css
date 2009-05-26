@@ -285,6 +285,13 @@ body.videos #thumbnails h4 {
 	margin-top: 0px;
 }
 
+.text #summary {
+  width:                auto;
+  height:               auto;
+  padding-right:        7.5em;
+  margin-left:          -126px;
+  margin-right:         -126px;
+}
 /* /Summary */ 
 
 
