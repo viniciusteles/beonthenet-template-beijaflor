@@ -387,11 +387,16 @@ body#timeout #main_content h2 {
 /* Footer */
 #footer {
 	background:             url(../images/footer.png) no-repeat;
-	margin-bottom:          2em;
 }
 
-#footer p {
-	margin-bottom:          .5em;
+#footer h1, 
+#footer h1 a {
+  color:                  #555;
+}
+
+#beonthenet:hover img, 
+#improveit:hover {
+  color:                  #7D4189;
 }
 /* /Footer */
 

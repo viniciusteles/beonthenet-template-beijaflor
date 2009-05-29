@@ -130,10 +130,9 @@ h1 {
 	margin-bottom: .7em;
 }
 
-body#selection h1 {
+#selection #main_content h1 {
 	float: left;
 }
-
 /* /Main content top segment */ 
 
 
@@ -267,28 +266,19 @@ body.videos #thumbnails h4 {
 	min-height: 4.5em;
 	height: auto !important;
 	height: 4.5em;
-	padding-right: 20em;
-  width: 380px;
 }
-
-#picture #summary {
-	margin-left: 20px;
-	width: 370px;
+#gallery #summary, #picture #summary {
+  padding-right:          20em;
 }
 
 #picture #data_sheet {
-	margin-left: 20px;
-	width: 570px;
-}
-
-#picture #go_to_selection a {
-	margin-top: 0px;
+  margin-left: 20px;
+  width: 570px;
 }
 
 .text #summary {
   width:                auto;
   height:               auto;
-  padding-right:        7.5em;
   margin-left:          -126px;
   margin-right:         -126px;
 }
@@ -297,15 +287,14 @@ body.videos #thumbnails h4 {
 
 /* Link to Selection */
 #go_to_selection a {
-	width: 7em;
-/*  height: 5em;*/
-	padding-left: 55px;
-	position: absolute;
-	top: 1em;
-	right: 8em;
+	width:              7em;
+	padding-left:       55px;
+	position:           absolute;
+	top:                20px;
+	right:              8em;
 }
-
 /* /Link to Selection */ 
+
 
 /* Paging */
 .pages {
@@ -510,12 +499,6 @@ p.pages {
 #selected_pictures a.remove_picture {
 	padding: 0;
 	position: static;
-}
-
-
-#go_to_selection a {
-	margin-top: 10px;
-	margin-right: -50px;
 }
 
 #checkout #selected_pictures,
@@ -802,6 +785,15 @@ body>#facebox {
 	margin-bottom: .5em;
 }
 
+#beonthenet img {
+  width:                  95px;
+  height:                 22px;
+  margin:                 0 -4px -3px 0;
+}
+
+#footer h5 {
+  margin:                 2em 0 .5em 0;
+}
 /* /Footer */ 
 
 
