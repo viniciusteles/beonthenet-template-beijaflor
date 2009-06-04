@@ -1,7 +1,7 @@
 /* Typography global attributes */
 html * {
   list-style-type:        none;
-  font:                   normal normal normal 1em/1em Geneva, Helvetica, "Lucida Grande", "Trebuchet MS", Arial, sans-serif;
+  font:                   normal normal normal 1em/1em "Geneva", Helvetica, "Lucida Grande", "Trebuchet MS", Arial, sans-serif;
 }
 
 p, li, dd, dt {
@@ -18,7 +18,14 @@ em {
 }
 
 h1 {
+  font:                   200% Georgia, serif;
+}
+#gallery h1, #search h1 {
+  font:                   110% Helvetica, "Lucida Grande", "Trebuchet MS", Arial, sans-serif;
+}
+#gallery h1 em, #search h1 em {
   font-size:              200%;
+  font:                   180% Georgia, "Times New Roman", serif;
 }
 
 h2 {
@@ -26,13 +33,12 @@ h2 {
 }
 
 h3, h3 a {
-  font-family: 			Geneva, Helvetica, Verdana, sans-serif;
+  font-family: 			      Helvetica, Verdana, sans-serif;
 }
 
 h4, h4 a {
-  font:                   85%/1.5em "Times New Roman", Times, serif;
+  font:                   85%/1.5em Helvetica, Verdana, sans-serif;
   text-decoration:        none;
-  font-family: 			Geneva, Helvetica, Verdana, sans-serif;
 }
 
 h4 a:focus, h4 a:hover {
@@ -42,46 +48,45 @@ h4 a:focus, h4 a:hover {
 
 
 /* Header tabbed menu */
-#header h1 img {
-	font-size:              	1em;
-	word-spacing:           	0.3em;
-	text-decoration: 			none;
-	letter-spacing: 			3px;
-	font-family: 				Georgia, Geneva, "Times New Roman", serif;
-	font-style: 				oblique;
-	margin-left: 				20px;
+#header p strong a, 
+#header p strong img {
+  font:                   italic normal normal 270%/1em Georgia, "Times New Roman", serif;
+	letter-spacing: 			  3px;
+	word-spacing:           0.3em;
+	text-decoration: 			  none;
+}
+#header p strong img {
+  font-size:              100%;
 }
 
 #header li {
-  	font-size:              85%;
+	font-size:              85%;
 	line-height:            1em;
 }
 
 #header li a {
-  	text-decoration:        none;
-	font: 					13px "Helvetica Neue", Helvetica, Geneva, sans-serif;
+	font:                   13px "Helvetica Neue", Helvetica, "Geneva", sans-serif;
+  text-decoration:        none;
 }
-
-
 #header li a:hover {
-	text-decoration: none;
-}
-
-
-#header #logo_screen a {
-	text-decoration: none;
+	text-decoration:        none;
 }
 /* /Header tabbed menu */
-
-
-#main_content h1 {
-	font-family: Georgia, serif;
-}
 	
 
 /* Thumbnails */
 ul#thumbnails li {
   font-size:     	         100%;
+}
+
+#thumbnails h2 a {
+  font-size:              90%;
+}
+#thumbnails h3 a {
+	font:                   75% "Geneva", "Helvetica Neue", Helvetica, sans-serif;
+}
+#thumbnails h3 a:link {
+  text-decoration:        none;
 }
 
 ul#thumbnails li div a {
@@ -92,8 +97,6 @@ ul#thumbnails li div a {
 ul#thumbnails a img {
 	font-size:              80%;
 }
-
-
 /* /Thumbnails */
 
 
@@ -316,11 +319,11 @@ body.application #main_content ul li {
   line-height:						1.25em;
 }
 
-#footer h1, #footer h2, #footer h6 {
+#footer h2, #footer h3, #footer h6 {
   font-size:							70%;
 }
 
-#footer h1 a {
+#footer h2 a {
   text-decoration:        none;
 }
 #footer #beonthenet, 
