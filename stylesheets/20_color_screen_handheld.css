@@ -427,7 +427,7 @@ body.text #main_content strong {
   font-weight: 			bold;
 }
 
-body.text p, body.text dl {
+body.text #main_content p, body.text #main_content dl {
 	padding-left: 10px;
 }
 
