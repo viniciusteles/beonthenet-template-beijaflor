@@ -229,24 +229,16 @@ body.videos #thumbnails h3 {
 
 
 /* Summary */
-#summary,#about_us,#data_sheet,body.application #main_content ul, #picture_description {
+#summary, #data_sheet, .application #main_content ul, #picture_description {
 	padding: .65em 7.5em;
 	border-width:       2px;
 	border-style:       solid;
-	margin-bottom: 10px;
+	margin:             0 10px 10px;
 }
 
 #summary, #picture_description {
 	position: relative;
   clear: both;
-	margin-left: 10px;
-	margin-bottom: 40px;
-
-}
-
-#picture_description {
-  margin-left: 20px;	
-	margin-right: 20px;	
 }
 
 #gallery #summary, #picture #summary {
