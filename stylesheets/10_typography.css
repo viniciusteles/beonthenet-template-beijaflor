@@ -50,8 +50,8 @@ h4 a:focus, h4 a:hover {
 /* Header tabbed menu */
 #header p strong a, 
 #header p strong img {
-  font:                   italic normal normal 270%/1em Georgia, "Times New Roman", serif;
-	letter-spacing: 			  3px;
+  font:                   italic normal normal 300%/1em Georgia, "Times New Roman", serif;
+  letter-spacing:         .08em;
 	word-spacing:           0.3em;
 	text-decoration: 			  none;
 }

@@ -28,8 +28,14 @@ h4 a:focus, h4 a:hover {
 	  
 }
 
-#header p strong img {
-  color:                #945E9E;
+#header p strong img, 
+#header p strong a {
+  color:                #7D4189;
+}
+
+#header p strong a:hover img, 
+#header p strong a:hover {
+  color:                #9661A0;
 }
 
 #header ul {
