@@ -14,9 +14,10 @@ ul#thumbnails li div a {
 }
 
 #big_picture, #big_video {
-  min-height: 100px;
-  height:     auto !important;
-  height:     100px;
+/*  min-height: 100px;*/
+/*  height:     auto !important;*/
+/*  height:     100px;*/
+background:blue;
 }
 
 #footer {

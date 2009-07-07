@@ -13,15 +13,6 @@ body.videos #thumbnails img {
   width:expression(this.width > 240 ? "240px" : true);
 }
 
-
-#big_picture, #big_video {
-	margin-left: -20px;
-}
-
-#previous {
-	margin-left: 5px;
-}
-
 #cart_items.instructions {
 	margin-left: -20px;
 }
@@ -29,7 +20,10 @@ body.videos #thumbnails img {
 p.pages {
 	margin-left: 10px;
 	margin-top: 10px;
-}	
+}
+#selection p.pages {
+	margin-left: 20px;
+}
 
 #selection #subnavigation {
 	margin-left: 20px;	
@@ -81,12 +75,6 @@ p.pages {
 	right:                  0;
 }
 
-body#selection #selection_size {
-/*  right:                  38.25em;*/
-/*  right: 488px;*/
-}
-
-
 #checkout #submit_error {
 	margin-top:             1em;
 	margin-left:            0.1em;
@@ -105,25 +93,8 @@ body#selection #selection_size {
 
 #facebox div {
 	padding-right: 0px; 
-	
 }
-
-
 #checkout #facebox div {
 	position: absolute;
 	left: 400px;
-}
-
-#search_picture #big_picture {
-	margin-left: -20px;
-}
-
-#search_picture #big_picture img{
-	margin-left: 5px;
-	
-}
-
-
-#selection p.pages {
-	margin-left: 20px;
 }
