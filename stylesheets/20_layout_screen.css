@@ -334,9 +334,9 @@ p.pages {
 /* Big picture page */
 #big_picture, #big_video {
 	width: 54.5em;
-	min-height: 33.25em;
-	height: auto !important;
-	height: 33.25em;
+/*  min-height: 33.25em;*/
+/*  height: auto !important;*/
+/*  height: 33.25em;*/
 	margin-bottom: 20px;
 	position: relative;
 	margin-top: 10px;
