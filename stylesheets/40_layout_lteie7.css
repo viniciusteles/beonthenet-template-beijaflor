@@ -13,11 +13,10 @@ ul#thumbnails li div a {
 	display:                block;
 }
 
-
 #big_picture, #big_video {
-	min-height: 33.25em;
-	height:     auto !important;
-	height:     33.25em;
+  min-height: 100px;
+  height:     auto !important;
+  height:     100px;
 }
 
 #footer {
