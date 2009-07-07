@@ -239,7 +239,7 @@ body.videos #thumbnails h3 {
 #summary, #picture_description {
   position:           relative;
   clear:              both;
-  top:                0;
+  bottom:             0;
   left:               0;
 }
 

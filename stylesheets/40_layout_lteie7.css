@@ -14,9 +14,9 @@ ul#thumbnails li div a {
 }
 
 #big_picture, #big_video {
-  min-height: 100px;
+  min-height: 33.25em;
   height:     auto !important;
-  height:     100px;
+  height:     33.25em;
 }
 
 #footer {
