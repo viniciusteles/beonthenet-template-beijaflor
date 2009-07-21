@@ -350,15 +350,15 @@ p.pages {
 #big_picture a, #big_video a {
 	width: 64px;
 	position: absolute;
-	top: 18em;
+	top: 120px;
 }
 
 #big_picture #previous {
-	left: -40px;;
+	left: -40px;
 }
 
 #big_video #previous {
-	left: 0px;;
+	left: 0px;
 }
 
 
