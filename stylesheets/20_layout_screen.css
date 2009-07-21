@@ -337,20 +337,21 @@ p.pages {
 /* Big picture page */
 #big_picture, #big_video {
 	width: 54.5em;
-/*  min-height: 33.25em;*/
-/*  height: auto !important;*/
-/*  height: 33.25em;*/
-	margin-bottom: 20px;
+  min-height:             140px;
+  height:                 auto !important;
+  height:                 140px;
+/*  margin-bottom: 20px;*/
+/*  margin-top: 10px;*/
+/*  margin-left: -10px;*/
+	margin:                 10px 0 20px -10px;
 	position: relative;
-	margin-top: 10px;
-	margin-left: -10px;
 }
 
 
 #big_picture a, #big_video a {
 	width: 64px;
 	position: absolute;
-	top: 120px;
+	top: 70px;
 }
 
 #big_picture #previous {
