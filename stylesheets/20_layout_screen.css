@@ -266,7 +266,7 @@ body.videos #thumbnails h3 {
 
 
 /* Link to Selection */
-#go_to_selection a {
+#go_to_selection {
 	width:              7em;
 	padding-left:       55px;
 	position:           absolute;
