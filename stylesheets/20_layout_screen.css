@@ -340,11 +340,12 @@ p.pages {
   min-height:             140px;
   height:                 auto !important;
   height:                 140px;
-/*  margin-bottom: 20px;*/
-/*  margin-top: 10px;*/
-/*  margin-left: -10px;*/
 	margin:                 10px 0 20px -10px;
 	position: relative;
+}
+
+#big_video {
+	margin-bottom: 50px;
 }
 
 
@@ -378,7 +379,7 @@ p.pages {
 	position: absolute;
 }
 
-#big_picture img, #big_picture object {
+#big_picture img, #big_video object {
 	padding: 2px;
 	border-width:     2px;
 	border-style:     solid;
@@ -399,14 +400,6 @@ p.pages {
 	position: absolute;
 	bottom: -20px;
 	right: 60px;
-}
-
-#big_video {
-	margin-bottom: 50px;
-}
-
-#viddler_video {
-	margin-left: 80px;
 }
 
 /* /Big picture page */ 

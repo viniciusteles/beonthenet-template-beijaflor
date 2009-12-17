@@ -161,7 +161,7 @@ ul#thumbnails a img {
 
 
 /* Big picture page */
-#big_picture {
+#big_picture, #big_video {
 	text-align:             center;
 }
 
