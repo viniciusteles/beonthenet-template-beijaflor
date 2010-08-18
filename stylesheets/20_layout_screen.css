@@ -71,14 +71,12 @@ a {
 	position: absolute;
 	margin: 60px 0 0 150px;
 	width: 500px;
-	height: 40px;
-	overflow: hidden;
+  height: 40px;
 }
 
 #slogan {
-  position:               absolute;
-  bottom:                 135px;
-  right:                  127px;
+  display:            block;
+  padding-top:        75px;
 }
 /* /Header tabbed menu */ 
 
@@ -120,6 +118,7 @@ a {
 h1 {
   margin-left:            12px;
 	margin-bottom:          .7em;
+  position:               relative;
 }
 #gallery h1 em, #search h1 em {
   display:                block;
@@ -129,6 +128,56 @@ h1 {
 	margin-top:             10px;
 }
 /* /Main content top segment */ 
+
+
+/* Flickr */
+#main_content h5 {
+  margin:             -3.6em 10px 2.5em 0;
+  vertical-align:     bottom;
+}
+#gallery #main_content h5, #search #main_content h5 {
+  margin:             -3.1em 10px 1.8em 0;
+}
+
+#main_content h5 a, #big_picture cite a {
+  display:            inline-block;
+  width:              37px;
+  height:             14px;
+  overflow:           hidden;
+  vertical-align:     bottom;
+}
+
+#thumbnails cite {
+  display:            block;
+  width:              20px;
+  height:             13px;
+  margin:             0;
+  position:           absolute;
+  top:                11px;
+  right:              9px;
+  overflow:           hidden;
+}
+
+#thumbnails cite a {
+  display:            inline-block;
+  padding:            5px 0 0 20px;
+}
+
+#big_picture #view_on_flickr, 
+#big_picture cite a {
+  position:           static;
+}
+
+#big_picture cite {
+  position:           absolute;
+  top:                2px;
+  right:              -35px;
+}
+
+body #footer h6 {
+  margin:             2em 0 0;
+}
+/* /Flickr */
 
 
 /* Thumbnails */
