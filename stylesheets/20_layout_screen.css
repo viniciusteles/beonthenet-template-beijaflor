@@ -130,7 +130,7 @@ h1 {
 /* /Main content top segment */ 
 
 
-/* Flickr */
+/* Flickr e Picasa */
 #main_content h5 {
   margin:             -3.6em 10px 2.5em 0;
   vertical-align:     bottom;
@@ -140,21 +140,21 @@ h1 {
 }
 
 #main_content h5 a, #big_picture cite a {
-  display:            inline-block;
-  width:              37px;
-  height:             14px;
-  overflow:           hidden;
-  vertical-align:     bottom;
+/*  display:            inline-block;*/
+/*  width:              37px;*/
+/*  height:             14px;*/
+/*  overflow:           hidden;*/
+/*  vertical-align:     bottom;*/
 }
 
 #thumbnails cite {
   display:            block;
   width:              20px;
-  height:             13px;
+  height:             18px;
   margin:             0;
   position:           absolute;
-  top:                11px;
-  right:              9px;
+  top:                13px;
+  right:              8px;
   overflow:           hidden;
 }
 
@@ -177,7 +177,7 @@ h1 {
 body #footer h6 {
   margin:             2em 0 0;
 }
-/* /Flickr */
+/* /Flickr e Picasa */
 
 
 /* Thumbnails */
