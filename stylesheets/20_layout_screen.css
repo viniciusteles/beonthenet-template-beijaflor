@@ -6,8 +6,7 @@ html * {
 
 body {
 	width: 62.5em;
-	margin: auto;
-	margin-top: 3.0em;
+	margin: 0 auto 32px;
 }
 
 #header,#main_content,#footer {
@@ -28,6 +27,36 @@ hr,.emtpy,.empty,#thumbnails li.empty,#selected_pictures li.empty {
 a {
 	outline: none;
 }
+
+
+/* Social network */
+#social_network {
+  text-align:             right;
+
+  display:                block;
+  padding:                3px 1px;
+
+  background:             #422348;
+}
+
+#social_network p {
+  height:                 16px;
+}
+
+#social_network a {
+  margin-left:            3px;
+}
+#social_network a:first-child {
+  float:                  left;
+  margin:                 0;
+
+  opacity:                .4;
+}
+#social_network a:first-child:hover {
+  opacity:                1;
+}
+/* /Social network */
+
 
 /* Header tabbed menu */
 #header {
@@ -797,7 +826,6 @@ body>#facebox {
 /* Footer */
 #footer {
 	padding: 1.25em 3.9em;
-	margin-bottom: 2em;
 	margin-left: 12px;
 	margin-right: 12px;
 }
