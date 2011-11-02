@@ -77,7 +77,6 @@ a {
   height:               auto;
   padding-top:          20px;
   margin:               0;
-  position:             static;
 }
 
 #slogan {
@@ -90,7 +89,7 @@ a {
   margin:               0 12px;
 	position:             absolute;
   right:                0;
-  bottom:               16px;
+  bottom:               13px;
   left:                 0;
 }
 
@@ -699,7 +698,7 @@ body#pictures_sent #order_form p {
 	position: absolute;
 /*  bottom: 27px;*/
 /*  right: 26px;*/
-  right:            92px;
+  right:            95px;
   bottom:           -13px;
 }
 

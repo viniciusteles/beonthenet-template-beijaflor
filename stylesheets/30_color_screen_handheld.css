@@ -395,7 +395,7 @@ button {
 
 #global_search #query {
 	color:                  #7e7e7e;
-  background:             #000 url(../images/search_input_shading.gif) repeat-x left top;
+  background:             #FFF url(../images/search_input_shading.gif) repeat-x left top;
   border: 0;
 }
 /* /Forms (contact, checkout, search) */
