@@ -62,6 +62,9 @@ h4 a:focus, h4 a:hover {
 #logo_screen, #slogan, #header ul {
   text-align:           center;
 }
+#slogan {
+  line-height:        1.1em;
+}
 
 #header li {
 	font-size:              85%;
@@ -74,11 +77,6 @@ h4 a:focus, h4 a:hover {
 }
 #header li a:hover {
 	text-decoration:        none;
-}
-
-#slogan {
-  line-height:        1.1em;
-  text-align:         right;
 }
 /* /Header tabbed menu */
 	
