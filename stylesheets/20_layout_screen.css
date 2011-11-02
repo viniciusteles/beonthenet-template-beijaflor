@@ -67,45 +67,50 @@ a {
 	position: relative;
 }
 
-#header ul {
-	margin: 0;
-	padding-top: 3px;
-	position: absolute;
-	bottom: 16px;
-	left: 140px;
-}
-
-#header li {
-	display:              inline;
-	float:                left;
-	padding-left:         10px;
-	margin:               0;
-}
-
-#header li a {
-	display:              block;
-  height:               30px;
-  padding:              12px 20px 0 10px;
-  margin-right:         -2px;
-}
-#header li.current a {
-  padding-top:          10px;
-}
-
 #logo_print {
 	display: none;
 }
 
 #logo_screen {
-	position: absolute;
-	margin: 60px 0 0 150px;
-	width: 500px;
-  height: 40px;
+  display:              block;
+  width:                auto;
+  height:               auto;
+  padding-top:          20px;
+  margin:               0;
+  position:             static;
 }
 
 #slogan {
-  display:            block;
-  padding-top:        75px;
+  padding-top:          10px;
+}
+
+
+#header ul {
+  padding:              0;
+  margin:               0 12px;
+	position:             absolute;
+  right:                0;
+  bottom:               16px;
+  left:                 0;
+}
+
+#header li, #header li a {
+  display:              inline-block;
+  vertical-align:       top;
+  margin:               0;
+}
+
+#header li {
+	padding-left:         10px;
+  margin-left:          -4px;
+}
+
+#header li a {
+  padding:              12px 16px 18px 6px;
+  margin-right:         -5px;
+}
+#header li.current a {
+  padding-top:          10px;
 }
 /* /Header tabbed menu */ 
 
@@ -692,8 +697,10 @@ body#pictures_sent #order_form p {
 	width: 9.5em;
 	padding-left: 19px;
 	position: absolute;
-  bottom: 27px;
-	right: 26px;
+/*  bottom: 27px;*/
+/*  right: 26px;*/
+  right:            92px;
+  bottom:           -13px;
 }
 
 #global_search fieldset {
