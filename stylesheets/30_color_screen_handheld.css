@@ -239,7 +239,8 @@ p.pages {
 
 
 /* Big picture page */
-#big_picture a span, #big_video a span {
+#big_picture #previous span, #big_picture #next span, 
+#big_video #previous span, #big_video #next span {
 	background:      url(../images/arrow_previous.png) no-repeat center right;
 }
 
