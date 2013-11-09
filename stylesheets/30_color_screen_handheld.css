@@ -237,47 +237,6 @@ p.pages {
 /* /Paging */
 
 
-
-/* Big picture page */
-#big_picture #previous span, #big_picture #next span, 
-#big_video #previous span, #big_video #next span {
-	background:      url(../images/arrow_previous.png) no-repeat center right;
-}
-
-#big_picture a#previous, #big_picture a#next, #big_video a#previous, #big_video a#next {
-	color: #EBEBE6;
-}
-
-#big_picture a#previous:hover span, #big_video a#previous:hover span {
-	background-image:       url(../images/arrow_previous_hover.png);
-}
-
-#big_picture #next span, #big_video #next span {
-	background:             url(../images/arrow_next.png) no-repeat center left;
-}
-#big_picture a#next:hover span, #big_video a#next:hover span {
-	background-image:       url(../images/arrow_next_hover.png);
-}
-
-#big_picture img, #big_video object {
-  	color:                  #7F6B43;
-	border-color:           #432349;
-}
-
-#big_picture label {
-  color:                  #FFF;
-  background:             #432349;
-}
-
-#big_video label {
-	margin-top: 30px;
-	background: #EBEBE6;
-}
-
-/* /Big picture page */
-
-
-
 /* Selection */
 .go_to_checkout a {
   color:                  #343E3E;
